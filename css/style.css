@@ -276,3 +276,159 @@ header {
   color: #ffffff;
   opacity: 0.5;
 }
+
+.popular-courses {
+  padding: 110px 0 270px;
+}
+
+.popular-courses__title {
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 100px;
+  color: #1a1a1a;
+  max-width: 753px;
+  margin-bottom: 110px;
+}
+
+.popular-courses__bloc-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-courses__bloc-left {
+  max-width: 540px;
+}
+
+.bloc-left__img-contents {
+  position: relative;
+  top: -60px;
+  padding-left: 20px;
+}
+
+.bloc-left__time {
+  background: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #111111;
+  padding: 6px;
+  margin-right: 8px;
+  top: 316px;
+}
+
+.bloc-left__star {
+  background: #111111;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.bloc-left__star span {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.bloc-left__star img {
+  vertical-align: middle;
+}
+
+.bloc-left__text-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #1a1a1a;
+  opacity: 0.3;
+}
+
+.popular-courses__left-title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.bloc-left__text {
+  font-size: 17px;
+  line-height: 32px;
+  color: #1a1a1a;
+  opacity: 0.6;
+}
+
+.popular-courses__bloc-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 118px;
+  flex-direction: row-reverse;
+}
+.popular-courses__bloc-right {
+  max-width: 360px;
+}
+
+.bloc-right__img-contents {
+  position: relative;
+  top: -60px;
+  padding-left: 20px;
+}
+
+.bloc-right__time {
+  background: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #111111;
+  padding: 6px;
+  margin-right: 8px;
+  top: 316px;
+}
+
+.bloc-right__star {
+  background: #111111;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.bloc-right__star span {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.bloc-right__star img {
+  vertical-align: middle;
+}
+
+.bloc-right__text-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #1a1a1a;
+  opacity: 0.3;
+}
+
+.popular-courses__right-title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.bloc-right__text {
+  font-size: 17px;
+  line-height: 32px;
+  color: #1a1a1a;
+  opacity: 0.6;
+}
