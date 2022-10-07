@@ -99,6 +99,10 @@ header {
   text-decoration: none;
 }
 
+.menu__list-link:hover {
+  color: #8c8c8c;
+}
+
 .header__center {
   padding-top: 141px;
 }
