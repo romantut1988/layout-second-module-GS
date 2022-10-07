@@ -226,7 +226,7 @@ header {
 .content-right__box::after {
   position: absolute;
   content: "";
-  width: 359px;
+  width: 321px;
   height: 180px;
   background: #242424;
   opacity: 0.5;
@@ -244,7 +244,7 @@ header {
   position: absolute;
   cursor: pointer;
   top: 132px;
-  right: -38px;
+  right: 0;
 }
 
 .content-right__bottom {
@@ -431,4 +431,70 @@ header {
   line-height: 32px;
   color: #1a1a1a;
   opacity: 0.6;
+}
+
+.courses {
+  padding-top: 145px;
+  padding-bottom: 150px;
+  background: #f5f6f8;
+}
+
+.courses__inner-list {
+  list-style: none;
+  counter-reset: my-counter;
+}
+
+.courses__item {
+  position: relative;
+  counter-increment: my-counter;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.courses__item:first-child {
+  padding-top: 0px;
+}
+
+.courses__item::before {
+  content: "0" counter(my-counter);
+  position: absolute;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+  opacity: 0.34;
+}
+
+.courses__item-link {
+  font-size: 50px;
+  line-height: 70px;
+  color: #000000;
+  padding-left: 180px;
+  cursor: pointer;
+}
+
+.courses__item-link-img {
+  width: 26px;
+  height: 22px;
+}
+
+.courses__title {
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 100px;
+  color: #1a1a1a;
+  max-width: 584px;
+  margin-bottom: 105px;
+}
+
+.courses__item-link-text {
+  padding-left: 180px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+  opacity: 0.5;
+  border-bottom: 0.5px solid #000000;
+  padding-bottom: 50px;
 }
