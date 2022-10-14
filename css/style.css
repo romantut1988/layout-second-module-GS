@@ -1144,7 +1144,7 @@ header {
     justify-content: end;
     align-items: end;
     width: 173px;
-    background-image: url(/images/human.jpg);
+    background-image: url(./images/human.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
