@@ -379,8 +379,8 @@ header {
 .popular-courses__bloc-two {
   display: flex;
   justify-content: space-between;
-  margin-top: 118px;
   flex-direction: row-reverse;
+  margin-top: 118px;
 }
 .popular-courses__bloc-right {
   max-width: 360px;
@@ -491,8 +491,8 @@ header {
 }
 
 .courses__item-link-img {
-  width: 26px;
-  height: 22px;
+  width: 14px;
+  height: 14px;
 }
 
 .courses__title {
@@ -607,7 +607,11 @@ header {
   .popular-courses__title {
     max-width: 749px;
   }
+  .popular-courses__bloc-two {
+    display: inline-block;
+  }
   .popular-courses__bloc-one {
+    display: inline-block;
     flex-wrap: wrap;
   }
   .popular-courses__bloc-left {
@@ -624,6 +628,7 @@ header {
   .bloc-left__descr {
     display: block;
     max-width: 359px;
+    padding-left: 30px;
   }
   .bloc-left__text-title {
     margin-top: 10px;
@@ -633,7 +638,6 @@ header {
     margin-bottom: 38px;
   }
   .bloc-left__img {
-    margin-right: 30px;
     max-width: 359px;
   }
 
@@ -648,6 +652,7 @@ header {
   .bloc-right__descr {
     display: block;
     max-width: 359px;
+    padding-right: 30px;
   }
   .bloc-right__text-title {
     margin-top: 10px;
@@ -662,7 +667,6 @@ header {
     text-align: end;
   }
   .bloc-right__img {
-    margin-left: 30px;
     max-width: 359px;
   }
   .bloc-right__img-contents {
@@ -672,7 +676,6 @@ header {
   }
   .popular-courses__bloc-two {
     flex-wrap: wrap;
-    flex-direction: column-reverse;
   }
   .popular-courses__bloc-left-two {
     display: flex;
@@ -722,6 +725,18 @@ header {
   .content-right__box-play {
     width: 37px;
     height: 37px;
+  }
+  .courses__title {
+    font-size: 70px;
+    line-height: 85px;
+  }
+  .courses__item-link {
+    font-size: 40px;
+    line-height: 55px;
+    padding-left: 120px;
+  }
+  .courses__item-link-text {
+    padding-left: 120px;
   }
 }
 
@@ -799,6 +814,7 @@ header {
   }
   .bloc-right__descr {
     max-width: 297px;
+    padding-right: 18px;
   }
   .bloc-right__img {
     max-width: 297px;
@@ -828,10 +844,21 @@ header {
   .content-right__box-rear {
     margin-bottom: 10px;
   }
+
+  .courses__title {
+    font-size: 46px;
+    line-height: 70px;
+    margin-bottom: 90px;
+  }
   .popular-courses__title {
     font-size: 70px;
     line-height: 81px;
     margin-bottom: 70px;
+  }
+  .courses__item-link {
+    padding-left: 95px;
+    font-size: 24px;
+    line-height: 36px;
   }
 }
 
@@ -885,6 +912,7 @@ header {
   }
   .bloc-left__descr {
     max-width: 194px;
+    padding-left: 18px;
   }
   .bloc-left__img {
     max-width: 194px;
@@ -1015,6 +1043,7 @@ header {
     font-size: 14px;
     line-height: 20px;
     bottom: 0;
+    right: 30px;
     margin-top: 48px;
   }
   .header__center-btn::after {
@@ -1034,6 +1063,7 @@ header {
   .content-right__bottom-text {
     font-size: 10px;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .header__mobile {
@@ -1131,16 +1161,17 @@ header {
     max-width: 263px;
     margin-bottom: 47px;
   }
+  .popular-courses__bloc-one {
+    display: inline-block;
+  }
   .popular-courses__bloc-left {
     margin-bottom: 64px;
   }
   .bloc-left__img {
     max-width: 166px;
     height: 172px;
-    margin-right: 7px;
   }
   .bloc-left__img-contents {
-    padding-left: 7px;
     top: 140px;
   }
   .bloc-left__time {
@@ -1174,7 +1205,6 @@ header {
   .bloc-right__img {
     max-width: 160px;
     height: 172px;
-    margin-left: 7px;
   }
   .bloc-right__img-contents {
     padding-left: 18px;
@@ -1207,5 +1237,43 @@ header {
   .bloc-right__text {
     font-size: 9px;
     line-height: 20px;
+  }
+  .popular-courses__bloc-right {
+    margin-bottom: 64px;
+  }
+  .popular-courses__bloc-right:last-child {
+    margin-bottom: 0;
+  }
+  .popular-courses__bloc-two {
+    display: inline-block;
+    margin-top: 64px;
+  }
+  .courses {
+    padding-top: 51px;
+    padding-bottom: 60px;
+  }
+  .courses__title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 53px;
+  }
+  .courses__item::before {
+    font-size: 18px;
+    line-height: 35px;
+    opacity: 0.34;
+  }
+  .courses__item-link {
+    padding-left: 87px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .courses__item-link-text {
+    padding-left: 87px;
+    font-size: 10px;
+    line-height: 23px;
+    padding-bottom: 30px;
+  }
+  .courses__item {
+    padding-top: 21px;
   }
 }
